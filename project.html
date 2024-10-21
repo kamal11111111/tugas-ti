@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roomath.</title>
+    <link rel="stylesheet" href="project-css.css">
+    <script src="project.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="wrapper" >
+            <div class="gmbr">
+                <img src="foto/logo.jpg" alt="">
+            </div>
+            <div class="logo">
+                <a href=''>Roomath</a>
+            </div>
+            <a href="#" class="tombol-menu">
+                <span class="garis"></span>
+                <span class="garis"></span>
+                <span class="garis"></span>
+            </a>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tutors">Tutors</a></li>
+                    <li><a href="#partners">Partners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#latihan soal"></a></li>
+                    <li><button id="notify-btn">Sign In</button></li>   
+                    <div id="notification" style="display: none;">
+                        <h1>Anouncement</h1> 
+                       <p>The login menu is not yet available, please try again!</p>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        
+        <section id="home">
+            <img src="foto/1.png"/>
+            <div class="kolom">
+                <p class="deskripsi"> Unlock your #mathpotential</p>
+                <h2>Rasakan keajaiban Matematika: Temukan Euforia dalam Setiap Angka!</h2>
+                <p>Roomath adalah solusi belajar matematika online yang dirancang khusus untuk 
+                    mahasiswa. Dengan materi yang jelas, latihan soal yang beragam, dan fleksibilitas waktu 
+                    belajar, Roomath membantu Anda menguasai konsep-konsep matematika dengan mudah 
+                    dan efektif..</p>
+                <p><a target="_blank" href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+        </section>
+
+       
+        <section id="courses">
+            <div class="kolom-course">
+                <p class="deskripsi">You Will Need This</p>
+                <h2>Online Courses</h2>
+                <p>Roomath adalah solusi lengkap untuk semua kebutuhan belajar matematika Anda. Mulai dari 
+                    materi perkuliahan yang jelas dan ringkas, latihan soal yang beragam, hingga persiapan ujian 
+                    sertifikasi, Roomath telah memikirkan semuanya. Dengan fitur-fitur seperti video 
+                    pembelajaran, kuis interaktif, dan forum diskusi, Anda dapat belajar dengan cara yang 
+                    menyenangkan dan efektif. Roomath tidak hanya membantu Anda meraih nilai A dalam mata 
+                    kuliah matematika, tetapi juga membekali Anda dengan keterampilan yang dibutuhkan untuk 
+                    sukses dalam karir Anda.</p>
+                
+                <p><a href="" class="tbl-biru">Pelajari Lebih Lanjut</a></p>
+            </div>
+            <img class="course-gmbr" src="foto/logo3.jpg"/>
+        </section>
+
+        
+        <section id="tutors">
+            <div class="tengah">
+                <div class="kolom-tutors">
+                    <h5 class="deskripsi-tutors">Our Top Tutors</h5>
+                    <h2>Tutors</h2>
+                    <p class="ptutors">Percayakan kesuksesan akademik Anda pada tutor matematika berpengalaman kami. Tutor
+                        kami yang bersertifikasi akan membimbing Anda langkah demi langkah untuk mencapai tujuan
+                        belajar Anda.</p>
+                </div>
+
+                <div class="tutor-list">
+                    <div class="kartu-tutor">
+                        <img src="foto/4.jpg    "/>
+                        <p>Joko Moore, S.Si., M.Stat.</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="foto/5.jpg"/>
+                        <p>Olivia Maya, S.Mat, M.Mat</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="foto/6.jpg"/>
+                        <p>Leonardo Decepticon</p>
+                    </div>
+                    <div class="kartu-tutor">
+                        <img src="foto/7.jpg"/>
+                        <p>Bruce Wills</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="partners">
+            <div class="tengah">
+                <div class="kolom-partners">
+                    <h5 class="deskripsi">Our Top Partners</h5>
+                    <h2>Partners</h2>
+                    <p>Kami berkolaborasi dengan lembaga sertifikasimembuka peluang bagi Anda untuk
+                        mendapatkan sertifikasi resmi yang diakui. Dapatkan pengakuan atas kompetensi Anda dan
+                        tingkatkan daya saing.</p>
+                </div>
+
+                <div class="partner-list">
+                    <div class="kartu-partner" title="phdstudies">
+                        <img src="foto/8.jpg"/>
+                    </div>
+                    <div class="kartu-partner" title="ditekindo">
+                        <img src="foto/9.jpg"/>
+                    </div>
+                    <div class="kartu-partner" title="persatuan aktuaris indonesia">
+                        <img src="foto/10.jpg"/>
+                    </div>
+                    <div class="kartu-partner" title="aljabar anugrah selaras">
+                        <img src="foto/11.jpg"/>
+                    </div>
+                    <div class="kartu-partner" title="mysertifikasi">
+                        <img src="foto/12.jpg"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section id="latihan-soal">
+        <div class="latihan-quiz">
+            <h2>Quiz</h2>
+            <p>Cek ketangkasan anda di sini</p>
+            <button class="quiz-kuis"><a href="latsol.html">Cek sekarang</a></button>
+        </div>
+    </section>
+
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>Roomath</h3>
+                    <p>Rasakan Keajaiban Matematika:
+                        Temukan Euforia dalam Setiap
+                        Angka!</p>
+                </div>
+                <div class="footer-section">
+                    <h3>About</h3>
+                    <p>Platform kursus online untuk meningkatkan kemampuan matematika Anda dan membuka
+                        pengetahuan lebih luas.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Jl. Gatot Subroto No.Kav 18, Kuningan Barat,
+                        Jakarta Selatan</p>
+                    <p>Kode pos: 12710</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social</h3>
+                    <p><b>Instagram: </b>@Room.math</p>
+                    <p><b>Facebook:</b> Roomath</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <div class="wrapper">
+            &copy; 2024. <b>Roomath.</b> All Rights Reserved.
+        </div>
+    </div>
+
+</body>
+</html>
